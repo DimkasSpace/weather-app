@@ -1,0 +1,81 @@
+.App {
+  margin: 0.8rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(255, 255, 255);
+  /* text-align: center; */
+  box-shadow: -4px 10px 51px -14px rgba(0,0,0,0.75);
+}
+
+.App-logo {
+  width: 20rem;
+  height: 20vmin;
+  pointer-events: none;
+  margin: 1rem auto;
+}
+
+h1, h2 {
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+form {
+  margin: 0.5rem 0;
+}
+
+input[type=text] {
+  margin-right: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3em;
+  border: 1px solid rgb(36, 109, 173);
+}
+
+input[type=text]:focus {
+  box-shadow: 0px 0px 3px 0px #4484c4;
+}
+
+.searchBtn {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid rgb(36, 109, 173);
+  border-radius: 0.3em;
+  background-color: rgba(36, 109, 173, 0.5);
+  color: #000;
+}
+
+.searchBtn:hover {
+  color: #fff;
+  background-color: rgb(36, 109, 173);
+}
+
+.weather-content {
+  margin-top: -1.5rem;
+  padding: 2rem 1rem;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5em;
+} 
+
+.bold {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
